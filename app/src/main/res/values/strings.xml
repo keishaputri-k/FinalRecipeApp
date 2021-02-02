@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FinalRecipeApp</string>
+    <string name="txt_welcome">Welcome,</string>
+    <string name="txt_sign_in_to_continue">Sign in to continue</string>
+    <string name="text_email">Email</string>
+    <string name="text_password">Password</string>
+    <string name="txt_forgot_password">Forgot Password ?</string>
+    <string name="txt_sign_in">Sign In</string>
+    <string name="txt_new_member">New Member?</string>
+    <string name="txt_sign_up">Sign Up</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_already_a_member">Already a Member?</string>
+    <string name="txt_forgotten">Forgotten</string>
+    <string name="txt_your_password">your password ?</string>
+    <string name="txt_enter_your_email">Enter your email address and we would send you a link to reset your password</string>
+    <string name="txt_send_email">Send Email</string>
+    <string name="txt_check_your_e_mail">Check Your e-mail</string>
+    <string name="we_have_send_you">We have send you a reset password link on your registered e-mail address.</string>
+</resources>
