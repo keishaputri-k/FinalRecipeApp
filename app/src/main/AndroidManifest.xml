@@ -12,8 +12,8 @@
         <activity android:name=".VerificationActivity"/>
         <activity android:name=".PasswordActivity" />
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".SignInActivity">
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
