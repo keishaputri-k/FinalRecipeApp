@@ -24,6 +24,5 @@ class HomeFragment : Fragment() {
     }
 
     companion object {
-        //todo
     }
 }

@@ -72,6 +72,10 @@ class SignInActivity : AppCompatActivity() {
                     progressCheck.hide()
                 }
         }
+        ll_new_member.setOnClickListener {
+            val newMemberIntent = Intent (this, SignUpActivity::class.java)
+            startActivity(newMemberIntent)
+        }
 
     }
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
