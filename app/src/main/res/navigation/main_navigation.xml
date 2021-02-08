@@ -9,15 +9,23 @@
         android:id="@+id/homeFragment"
         android:name="com.kei.finalrecipeapp.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_AddFragment"
+            app:destination="@id/addFragment" />
+    </fragment>
     <fragment
         android:id="@+id/addFragment"
         android:name="com.kei.finalrecipeapp.AddFragment"
         android:label="fragment_add"
-        tools:layout="@layout/fragment_add" />
+        tools:layout="@layout/fragment_add">
+        <action
+            android:id="@+id/action_addFragment_to_savedFragment"
+            app:destination="@id/savedFragment" />
+    </fragment>
     <fragment
         android:id="@+id/savedFragment"
         android:name="com.kei.finalrecipeapp.SavedFragment"
         android:label="fragment_saved"
-        tools:layout="@layout/fragment_saved" />
+        tools:layout="@layout/fragment_saved"/>
 </navigation>
